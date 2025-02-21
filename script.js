@@ -40,6 +40,7 @@ avatarImageInput.addEventListener("change", (event)=>{
         avatarUploadInfo.style.color = "hsl(7, 88%, 67%)";
         infoIcon.style.stroke = "hsl(7, 88%, 67%)";
         document.querySelector(".upload-avatar").style.outline = "1px solid red";
+        avatarImageInput.value = "";
     }
     
     reader.readAsDataURL(file);
